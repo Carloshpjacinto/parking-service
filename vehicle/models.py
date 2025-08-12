@@ -32,7 +32,7 @@ class Vehicle(models.Model):
     license_plate = models.CharField(max_length=10, unique=True, verbose_name='Placa')
     brand = models.CharField(max_length=50, blank=True, null=True, verbose_name='Marca')
     model = models.CharField(max_length=50, blank=True, null=True, verbose_name='Modelo')
-    cor = models.CharField(max_length=50, blank=True, null=True, verbose_name='Cor')
+    color = models.CharField(max_length=50, blank=True, null=True, verbose_name='Cor')
     owner = models.ForeignKey(
         Customer,
         on_delete=models.PROTECT,
