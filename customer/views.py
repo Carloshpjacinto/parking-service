@@ -1,8 +1,10 @@
 from rest_framework import viewsets
-from rest_framework.permissions import IsAdminUser, DjangoModelPermissions
+from rest_framework.permissions import DjangoModelPermissions, IsAdminUser
+
+from .filters import CustomerFilterClass
 from .models import Customer
 from .serializers import CustomerSerializer
-from .filters import CustomerFilterClass
+
 
 class CustomerViewSet(viewsets.ModelViewSet):
     queryset = Customer.objects.all()

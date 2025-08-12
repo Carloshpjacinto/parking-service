@@ -1,6 +1,9 @@
 asgiref==3.9.1
 attrs==25.3.0
+black==25.1.0
 cachetools==6.1.0
+click==8.2.1
+colorama==0.4.6
 dj-database-url==3.0.1
 Django==5.2.5
 django-rql==4.4.1
@@ -10,12 +13,16 @@ drf-spectacular==0.28.0
 drf-spectacular-sidecar==2025.8.1
 flake8==7.3.0
 inflection==0.5.1
+isort==6.0.1
 jsonschema==4.25.0
 jsonschema-specifications==2025.4.1
 lark-parser==0.11.0
 lib-rql==2.0.2
 mccabe==0.7.0
-pycodestyle==2.14.0
+mypy_extensions==1.1.0
+packaging==25.0
+pathspec==0.12.1
+platformdirs==4.3.8
 pyflakes==3.4.0
 PyJWT==2.10.1
 python-dateutil==2.9.0.post0
