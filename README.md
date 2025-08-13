@@ -73,12 +73,16 @@
 ## 📂 Estrutura do Projeto
 
 #### parking-service/
-#### │── backend/            # Código do back-end (Django)
-#### │── frontend/           # Código do front-end (se aplicável)
-#### │── requirements.txt    # Dependências do projeto
-#### │── .env.example        # Exemplo de variáveis de ambiente
-#### │── manage.py
-#### └── README.md
+#### │── authentication/       
+#### │── config/           
+#### │── customer/    
+#### │── parking/
+#### │── vehicle/
+#### └── .flake8
+#### └── .gitignore
+#### └── docker-compose.yml
+#### └── manage.py
+#### └── requirements.txt
 
 ## 📜 Licença
 ### Este projeto está licenciado sob a licença MIT - sinta-se livre para usá-lo e modificá-lo.
